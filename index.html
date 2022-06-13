@@ -5,8 +5,156 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Righteous&family=Tapestry&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style1.css">
   <title>SWITZERLAND NATURE | TOUR GUIDE</title>
+  <style>body {
+  display: block;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  overflow-x: hidden;
+}
+.bg1 {
+  background-image: url(./bg1.jpg);
+  min-height: 100%;
+}
+.text-head{
+  text-align: center;
+  font-size: 6rem;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  text-shadow:5px 2px 6px black ;
+  font-family: 'Righteous', cursive;
+}
+h4{
+  color: rgb(12, 11, 11);
+}
+div {
+  display: block;
+}
+.bg1, .bg2, .bg3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.text .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Fjalla One', sans-serif;;
+}
+.section-1 {
+  background: url(./whitebg.jpg) no-repeat 100%;
+  color: #111;
+  height: 90%;
+}
+.section-2 {
+  background: url(./blackbg.jpg) no-repeat 100%;
+  color: #fff;
+  height: 85%;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+section {
+  display: block;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.bg2 {
+  background-image: url(./citybg.jpg);
+  min-height: 400px;
+}
+.text .border.trans {
+  background-color: transparent;
+}
+.text .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.bg3 {
+  background-image: url(./switzleft.png);
+  min-height: 400px;
+}
+  .content-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+  .content-images img{
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid #2c2c2c;
+    border-radius: 20px;
+  }
+  .city-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+  .city-div img{
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  @media screen and(max-width:60%) {
+    .content-images {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .city-div{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  </style>
 </head>
 <body>
   <div class="bg1">
